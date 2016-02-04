@@ -49,3 +49,13 @@ header{
 .remake{
 	color:#000;
 }
+@media (max-width: 500px){
+	body{
+		background-color:pink;
+	}
+}
+@media only screen and (max-width:500px){
+	.masthead{
+		font-size:0.5rem;
+	}
+}	
