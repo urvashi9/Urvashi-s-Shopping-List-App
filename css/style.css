@@ -56,6 +56,9 @@ header{
 	margin: 0 auto;
 	width:23%;
 }
+button#add {
+    float: right;
+}
 #remake-button{
 	width: 10%;
 	margin-left: 44%;
