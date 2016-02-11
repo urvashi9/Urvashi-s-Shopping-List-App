@@ -23,6 +23,7 @@ header{
 }
 .strike{
 	text-decoration: line-through;
+	color: #000;
 }
 .content  .list li{
 	list-style-type: none;
@@ -55,6 +56,9 @@ header{
 	text-align: left;
 	margin: 0 auto;
 	width:23%;
+}
+span {
+    color: white;
 }
 button#add {
     float: right;
