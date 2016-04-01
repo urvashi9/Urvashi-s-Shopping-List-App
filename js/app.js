@@ -31,7 +31,7 @@ $('#add').click(function(){
 if(!$.trim($('#item').val())) {
 			alert('Please enter text to add to the list');
 		} else {
-			$('<li class="list-items"></li>').appendTo('.list').html('<div class="box"></div><span><input type="checkbox" id="check-box">' + txtval + '</input></span><button type"button" id="delete"><i class="fa fa-trash-o"></i></button>');
+			$('<li class="list-items"></li>').appendTo('.list').html('<div class="box"></div><center style="width:80%;margin-left:4%;height:29px"><div class="groceryList"><input type="checkbox" id="check-box">' + txtval + '</input></div><button type"button" id="delete"><i class="fa fa-trash-o"></i></button></center>');
 
 		document.getElementById('item').value = '';
 		};
